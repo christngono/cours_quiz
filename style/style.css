@@ -1,0 +1,133 @@
+html, body{
+    margin:0;
+}
+.logo{
+    margin-left:30%;
+    margin-bottom: 5px;
+}
+.alert{
+    background-color:#ccc!important;
+    color:#000;
+    border:1px solid #ccc;
+    padding:0 10px;
+    border-radius: 15px;
+}
+.question{
+    padding-top:10px;
+    padding-bottom:30px;
+    font-size: 1.5rem;
+}
+.central{
+  min-height: 200px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  background-color:#FDF5EA;
+  margin-top: 5px;
+  box-shadow: #E7E1D8 5px 5px;
+  padding-top: 20px;
+  padding-bottom:30px;
+  padding-left:30px;
+  font-size:1.2rem;
+  border-radius: 15px;
+}
+
+header{
+    display: flex;
+ 
+    margin:0;
+    padding: 15px;
+    height: 40PX;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:1.5rem;
+    font-weight: 700;
+    color:#FFF;
+    background: #F2994A;  /* fallback for old browsers */
+     /*background: -webkit-linear-gradient(to right, #F2C94C, #F2994A); */
+     /* background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+     background-image: url('./images/imgb.png');
+     background-position: 92% 26%;
+     background-repeat: no-repeat;
+     background-size: 132px;
+}
+.img{
+    background-image: url('mgb.png');
+}
+
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    color:#fff;
+    font-weight:bold;
+    align-items: center;
+    border-radius: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-content: space-around;
+    background: #EF9C30;
+}
+
+
+
+.container{
+    margin : 0 10%;
+}
+.box{
+    display:inline-block;
+    height: 10px;
+    width: 80px;
+    margin:2px;
+    border-radius: 10px;
+   
+}
+.gris{
+    background-color: #D9D9D9;
+}
+.green{
+    background-color: rgb(14, 175, 14);
+}
+
+.sect1{
+   display:flex;
+    margin-top:30px;
+    margin-bottom:20px;
+    justify-content: center;
+}
+.button_section{
+    margin-top:50px;
+}
+.btn{
+    padding:10px 30px;
+    font-weight: bold;
+    background-color:#fff;
+    border-radius: 15px;
+   
+    font-family: 'Nunito Sans', sans-serif;
+    border:1px solid #e7e1d8;
+    box-shadow: #e7e1d8 5px 5px;
+    color:#000;
+    transition: ease-in 0.1s;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.btn:hover{
+    box-shadow: #D0D23F 5px 5px;
+    color:#000;
+    background-color: #EEF05D;
+    border: 1px solid #D0D23F;
+    cursor: pointer;  
+}
+@media (max-width: 600px) {
+   .container{
+         margin:0 10px;
+   }
+.sect1{
+    margin:20px 15px;
+}
+.logo{
+    margin-left:1%;
+
+}
+}

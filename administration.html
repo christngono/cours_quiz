@@ -1,0 +1,107 @@
+<!-- <?php
+
+   $connection = new PDO('mysql:host=localhost;dbname=base_entreprise;charset=utf8','root','');
+   $data = $connection->prepare('SELECT * from entreprise');
+   $data->execute();
+  $entreprises = $data->fetchAll();
+ 
+
+?> -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Pannel administration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+  
+      <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark"">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">QUIZ admin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Liste des quiz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">liste des Catégories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">voire les notes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+    <div class="row mt-5 justify-content-md-center">
+       <div class="col-6"> <button type="button" class="btn btn-primary">Ajouter un quiz</button></div>
+    </div>
+    <div class="row mt-2 justify-content-md-center">
+      <div class="col-12">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">TITRE DU QUIZ</th>
+            <th scope="col">OBJECTIF</th>
+            <th scope="col">GATEGORIE</th>
+            <th scope="col">ACTION</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Comment resoudre une équation</td>
+            <td>ici nous allons voire commen resoudre une equation</td>
+            <td>mathématiques</td>
+            <td>
+              <button type="button" class="btn btn-primary">Modifier</button>
+              <button type="button" class="btn btn-primary">Voir les questions</button>
+              <button type="button" class="btn btn-danger">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Comment trouver la propriété de thales</td>
+            <td>comprendre la propriété de thales</td>
+            <td>mathématiques</td>
+            <td>
+              <button type="button" class="btn btn-primary">Modifier</button>
+              <button type="button" class="btn btn-primary">Voir les questions</button>
+              <button type="button" class="btn btn-danger">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>determiner la parité d'une fonction</td>
+            <td>commpendre la parité</td>
+            <td>mathématiques</td>
+            <td>
+              <button type="button" class="btn btn-primary">Modifier</button>
+              <button type="button" class="btn btn-primary">Voir les questions</button>
+              <button type="button" class="btn btn-danger">Supprimer</button>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    </div>
+    <footer class="position-relative">
+   
+        <div class="position-absolute top-100 start-50 translate-middle">lasylab@2023</div>
+
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

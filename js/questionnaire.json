@@ -1,0 +1,34 @@
+[
+{   
+        "id":1,
+        "question":" la racine carrée de -1 est :",
+        "xchoix1":0,
+        "choix2":-1,
+        "choix3": "néxiste pas",
+        "good_answer":-1
+    }, 
+    {
+        "id":2,
+        "question":" la valeur absolu de (x-1):",
+        "choix1":"x-1",
+        "choix2":-4,
+        "choix3": "-(x-1)",
+        "good_answer":4
+    }, 
+    {
+        "id":3,
+        "question":" la  double de 4 est :",
+        "choix1":4,
+        "choix2":16,
+        "choix3":8,
+        "good_answer":16
+    } ,
+    {
+        "id":4,
+        "question":" la  double de 4 est :",
+        "choix1":"4",
+        "choix2":16,
+        "choix3":8,
+        "good_answer":16
+    } 
+]
